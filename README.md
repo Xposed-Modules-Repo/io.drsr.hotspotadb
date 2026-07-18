@@ -18,8 +18,8 @@ Android 11+ only enables Wireless Debugging when the device is connected to Wi-F
 | Device | Android | ROM | Zygisk | Xposed |
 | --- | --- | --- | --- | -- |
 | enchilada | 15 | LineageOS 22.2 | Magisk 30.7 </br> NeoZygisk 2.3 | LSPosed 1.9.2 </br> Vector 2.0 |
-| enchilada | 16 QPR1 | crDroid 12.5 | Magisk 30.7 | LSPosed 2.1.0 |
 | tucana | 16 | LineageOS 23.2 | Magisk 30.7 | Vector 2.0 |
+| enchilada | 16 QPR1 | crDroid 12.5 | Magisk 30.7 | LSPosed 2.1.0 |
 
 If this module works (or not) on your device/ROM, please [open an issue](https://github.com/droserasprout/io.drsr.hotspotadb/issues).
 
@@ -30,7 +30,7 @@ Grab the APK from Xposed Module Repo, [GitHub Releases](https://github.com/drose
 1. Install the APK
 2. Enable the module in LSPosed for two scopes:
    - `com.android.settings`
-   - `android` (System Framework)
+   - `system` (System Framework)
 3. Reboot
 
 ## Usage
